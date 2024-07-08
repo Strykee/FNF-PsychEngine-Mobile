@@ -52,7 +52,7 @@ class FlxShader extends OriginalFlxShader
 		var gl = __context.gl;
 
 		#if mobile
-		var prefix = "#version 300 es\n";
+		var prefix = "#version 330\n";
 		#else
 		var prefix = "#version 330\n";
 		#end
